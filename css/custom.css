@@ -1,5 +1,6 @@
 body {
 	background-image:url('debut_light.png');
+	margin:0px 40px 0px 40px;
 }
 
 body p {
@@ -7,9 +8,7 @@ body p {
 }
 
 .header {
-	margin-left:40px;
 	margin-top:30px;
-	margin-right:40px;
 }
 
 .header h1 {
@@ -77,8 +76,8 @@ body p {
 }
 
 .work {
-	margin-left:40px;
-	margin-right:40px;
+	
+	
 }
 
 #portfolio {
@@ -118,9 +117,9 @@ body p {
 }
 
 .about {
-	margin-left:40px;
-	margin-right:40px
+
 }
+
 
 #timeline {
 	height:200px;
@@ -141,8 +140,8 @@ body p {
 }
 
 .contact {
-	margin-left:40px;
-	margin-right:40px;
+	
+	
 }
 
 #contactform {
@@ -189,14 +188,28 @@ input, label {
 
 }
 
+
+#twitter {
+	margin-left: 40px;
+	width:33.3%;
+	float:left;
+}
+
+#lastfm {
+    width:33.3%;
+    float:middle;
+	
+}
+
+#dribbble {
+	width:33.3%;
+	margin-right: 40px;
+	float:right;
+}
+
 .footer p {
 	color:white;
 }
 
-.bg
-{
-  width: 100%;
-  z-index: 0;
-}
 
 
