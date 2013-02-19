@@ -8,26 +8,27 @@ body p {
 
 .header {
 	margin-left:40px;
-	margin-top:30px;
+	margin-top:40px;
 	margin-right:40px;
 }
 
 .header h1 {
 	font-family: 'Open Sans', sans-serif;
-	
+	text-shadow: 0px 1px 0px rgba(84, 84, 84, 1);
 }
 
-.header img {
 
-	}
+.header p {
+	text-shadow: 0px 1px 0px rgba(84, 84, 84, 1);
+}
 	
 #pic {
 	position:absolute;
-	}
+}
 	
 #name {
 	position:relative;
-	margin-left:120px;
+	margin-left:95px;
 }
 
 #name p {
@@ -50,12 +51,17 @@ body p {
 	text-align:center;
 	margin-top:100px;
 	width:100%;
-	height:90px;
+	height:100px;
 }
 
 #tagline h1 {
 	font-weight:100;
 	font-size:35px;
+}
+
+#tagline b {
+	text-shadow: 0px 2px 0px rgba(84, 84, 84, 1);
+
 }
 
 .work {
@@ -72,7 +78,7 @@ body p {
 #portfolio img {
 	padding:7px;
 	border: 1px solid black;
-	margin: 0px 77px 20px 0px;
+	margin: 0px 4em 20px 0px;
 	box-shadow:1px 0px 1px gray;
 }
 
@@ -137,7 +143,12 @@ input, label {
 
 .footer {
 	background-image:url('black_lozenge.png');
-	height:300px;
+    overflow: hidden;
+    left: 0;
+    top: 1400px;
+    position: absolute;
+    z-index: -9999;	
+    height:400px;
 	width:100%;
 	position:absolute;
 
