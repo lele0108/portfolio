@@ -8,7 +8,7 @@ body p {
 
 .header {
 	margin-left:40px;
-	margin-top:40px;
+	margin-top:30px;
 	margin-right:40px;
 }
 
@@ -24,11 +24,23 @@ body p {
 	
 #pic {
 	position:absolute;
+	background: url('../img/head.png') no-repeat;
+	width: 150px;
+	height: 150px;
+}
+
+#pic:hover {
+	transform:rotate(-30deg);
+	-ms-transform:rotate(-30deg); /* IE 9 */
+	-moz-transform:rotate(-30deg); /* Firefox */
+	-webkit-transform:rotate(-30deg); /* Safari and Chrome */
+	-o-transform:rotate(-30deg); /* Opera */
 }
 	
 #name {
 	position:relative;
-	margin-left:95px;
+	margin-left:130px;
+	padding-top:5px;
 }
 
 #name p {
@@ -76,8 +88,8 @@ body p {
 }
 
 #portfolio img {
-	border: 1px solid; 
-	padding: 5px;
+	border:1px solid;
+	padding:5px;
 }
 
 #container {
@@ -168,7 +180,7 @@ input, label {
 	background-image:url('black_lozenge.png');
     overflow: hidden;
     left: 0;
-    top: 1400px;
+    top: 1450px;
     position: absolute;
     z-index: -9999;	
     height:400px;
