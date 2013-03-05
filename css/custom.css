@@ -1,6 +1,10 @@
+/* Author: Jimmy Liu
+   Twitter: @jimmyliu
+   Website: jimmyliu.me */
+
 body {
 	background-image:url('debut_light.png');
-	margin:0px 40px 0px 40px;
+	margin:0px 20% 0px 20%;
 }
 
 body p {
@@ -158,13 +162,14 @@ input, label {
 }
 
 #noform {
+	float:right;
 	position:inherit;
 	margin-top:-150px;
 	
 }
 
 #noform h2 {
-	text-align:right;
+	
 	font-family: 'Open Sans', sans-serif;
 	font-weight:500;
 	font-size:20px;
@@ -172,7 +177,12 @@ input, label {
 
 #noform p {
 	font-weight:100;
-	text-align:right;
+	
+}
+
+#noform a {
+	text-decoration:none;
+	color:grey;
 }
 
 .footer {
@@ -190,20 +200,19 @@ input, label {
 
 
 #twitter {
-	margin-left: 40px;
+	margin-left: 20%;
+	height:0px;
 	width:33.3%;
-	float:left;
 }
 
 #lastfm {
     width:33.3%;
-    float:middle;
 	
 }
 
 #dribbble {
 	width:33.3%;
-	margin-right: 40px;
+	margin-right: 20%;
 	float:right;
 }
 

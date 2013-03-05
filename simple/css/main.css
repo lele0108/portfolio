@@ -1,0 +1,48 @@
+body {
+	
+	color:#000000;
+}
+
+body h1{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight:100;
+	margin-top:30px;
+}
+
+body b {
+	color:#ffffff;
+	font-style:italic;
+	font-weight:500;
+	
+}
+
+body p {
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight:100;
+	margin-top:30px;
+
+	
+}
+
+body a {
+	
+	text-decoration:none;
+	color:#ffffff;
+	font-style:italic;
+	
+}
+
+body a:hover {
+	color:#ffffff;
+	font-style:italic;
+	
+}
+
+body h3 {
+
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:100;
+}
