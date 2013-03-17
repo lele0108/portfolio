@@ -32,6 +32,10 @@ body h2 {
 		margin-left:-20px;
 		padding:20px; 
 	}
+	
+	.images img{
+		margin:0px 20px 20px 0px;
+	}
 }
 
 .header {
@@ -40,7 +44,7 @@ body h2 {
 
 .header h1 {
 	font-weight:700;
-	font-size:25px;
+	font-size:30px;
 	margin:0px;
 }
 
@@ -54,6 +58,12 @@ body h2 {
 	font-weight:600;
 }
 
+.header h3 {
+	font-weight:200;
+	font-size:18px;
+	margin-top:-10px;
+}
+
 .header a {
 	color:black;
 	text-decoration:none;
@@ -64,14 +74,21 @@ body h2 {
 	
 }
 
+.header p {
+	margin-top:20px;
+}
+
 .header img {
 }
 
 .images img {
    padding: 6px;
    border: 1px solid #8c8c8c;
-   margin:0px 5px 20px 0px;
+   margin:0px 0px 20px 0px;
    background-color:#fff;
+   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+   -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0.5);
+   box-shadow:         0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .timeline hr {
@@ -96,7 +113,7 @@ body h2 {
 }
 .time1 {
 	margin-top:-100px;
-	left:9%;
+	left:19%;
 	position:absolute;
 	width:90px;
 	height:90px;
@@ -105,7 +122,7 @@ body h2 {
 
 .time2 {
 	margin-top:-100px;
-	left:20%;
+	left:35%;
 	position:absolute;
 	width:90px;
 	height:90px;	
@@ -139,6 +156,7 @@ body h2 {
 			padding: 8px 20px;
 			overflow:hidden;
 			background: url(../img/circle.png) no-repeat;
+			border:none;
 }
 
 .contact p {
@@ -148,6 +166,7 @@ body h2 {
 .contact h3 {
 	font-weight:400;
 	font-size:25px;
+	margin-top:0px;
 }
 
 .footer hr {
@@ -159,7 +178,7 @@ body h2 {
 
 .footer {
 	padding-top:25px;
-	background-image:url('black_lozenge.png');
+	background-image:url('../img/black_lozenge.png');
 	padding-bottom:20px;
 }
 
@@ -177,4 +196,14 @@ body h2 {
 
 .footer img {
 	 vertical-align: text-bottom;
+     -webkit-transform:rotate(360deg);
+     -moz-transform:rotate(360deg); 
+     -o-transform:rotate(360deg);
 }
+
+.footer img:hover   
+{ 
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg); 
+    -o-transform:rotate(360deg);
+}  
