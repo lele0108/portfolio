@@ -57,7 +57,7 @@
     	
     </div> <!--end header!-->
   
-    <a name="work">
+    <section id="work">
     <div class="work">
     	<div class="row-fluid">
     		<div class="span8 offset2">
@@ -132,7 +132,7 @@
     		</div>
     	</div> <!--end row-fluid!-->
    </div><!--end work!-->
-    </div></a>
+    </div></section>
     
     <section id="about">
     <div class="about">
@@ -186,7 +186,7 @@
 		    		<div class="span6">
 		    			<p>Hi, I'm Jimmy. I create beautiful and minimalistic designed tailored toward ease of use. I believe that simplicity is the ultimate sophistication. 						I've fluent in HTML, CSS, PHP, JavaScript and Java. My tools of trade are Coda, Adobe PhotoShop, Sublime Text, and Chrome. I'm currently working at VortexUnit.</p>
 		    		</div>
-		    		<div class="span6"
+		    		<div class="span6">
 		    			<p>My favorite video games are Fez, Super Meat Boy, and Bastion. My favorite artists are Helen Jane Long, Hans Zimmer, and Roberto Cacciapaglia. The person that inspires me the most is currenlty Steve Jobs. My current phone is the iPhone 4S and my main computer is a Macbook Pro. I currently reside in Cupertino, California.</p>
 		    			<br><br>
 		    		</div>
@@ -208,7 +208,7 @@
     	</div>
     </div></a><!--end about!-->
     
-    <a name="contact">
+    <section id="contact">
     <div class="contact">
     		<div class="row-fluid">
     			<div class="span8 offset2">
@@ -224,7 +224,7 @@
 					  <form>
 					      <div class="controls controls-row">
 					          <input id="name" name="name" type="text" class="span6" placeholder="Your Name"> 
-					          <input id="email" name="email" type="email" class="span6" placeholder="Your Email">
+					          <input id="email" name="email" type="text" class="span6" placeholder="Your Email">
 					      </div>
 					      <div class="controls">
 					          <textarea id="message" name="message" class="span12" placeholder="Hi Jimmy, what's up?" rows="5"></textarea>
@@ -252,7 +252,7 @@
 			  <br><br>
 			</div><!--end span 10!-->
 		</div><!--end row fluid!-->    		
-	</div></a><!--end contact!-->    
+	</div></section><!--end contact!-->    
 	
 	<div class="footer">
 		<div class="row-fluid">
@@ -260,23 +260,24 @@
 			
 				<div class="span4">
 					<h3><img src="http://placehold.it/25x25"> Twitter</h3>
-					<p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu 								ullamcorper orci. 				Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla 							justo, eget luctus tortor. Nulla facilisi.</p>
+						<div class="tweet"></div>
+
 					</div>
 					
 					<div class="span4">
 					<h3><img src="http://placehold.it/25x25"> Last.fm</h3>
-					<p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu 								ullamcorper orci. 				Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla 							justo, eget luctus tortor. Nulla facilisi.</p>					
+					<div id="lastfmrecords"></div>					
 					</div>
 					
 					<div class="span4">
 					<h3><img src="http://placehold.it/25x25"> Dribbble</h3>
-					<p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu 								ullamcorper orci. 				Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla 							justo, eget luctus tortor. Nulla facilisi.</p>					
+					<ul id="dribbble"></ul>					
 				</div>
 			</div><!--end span10!-->
 			<div class="span5 offset3">
 			<br>
 			<hr>
-			<p class="text-center">Copyright Jimmy Liu. Powered by Bootstrap</p>
+			<p class="text-center">Copyright Jimmy Liu. Made on a Mac.</p>
 			<center><img src="img/head.png" height=65 width=65></center>
 			</div>
 		</div><!--end fluid!-->
@@ -287,6 +288,11 @@
     
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/last.fm.records.js"></script>
+    <script src="js/jribbble.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/twitter.js"></script>
+
     <script>  
 	    $(function ()  
 	    { $("#example").popover();  
@@ -307,6 +313,7 @@
 	    $(function ()  
 	    { $("#example4").popover();  
 	    });
-</script> 
+	</script> 
+
   </body>
 </html>
