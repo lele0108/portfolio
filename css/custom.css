@@ -195,6 +195,19 @@ body h2 {
 	text-shadow: 0px 0px white;
 }
 
+.footer h3 a {
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	text-shadow: none;
+}
+
+.footer h3 a:hover {
+	text-decoration:none;
+	color: #909090;
+	text-shadow: none;
+}
+
 .footer img {
 	 vertical-align: text-bottom;
      -webkit-transform:rotate(360deg);
@@ -209,6 +222,23 @@ body h2 {
     -o-transform:rotate(360deg);
 } 
 
+.footer blockquote {
+	 border-left: none;
+	 padding-left:  0px;
+	 font-size:14px;
+}
+
+.footer p {
+	font-size:14px;
+	line-height:20px;
+}
+
+.footer p a {
+	color:white;
+	text-shadow: none;
+	font-size:14px;
+}
+
 #lastfmrecords {
 	margin-bottom:40px;
 }
@@ -222,7 +252,7 @@ body h2 {
 
 
 ul#dribbble {
-	width: 720px; margin: 0 auto 50px auto; 
+	width: 100%; margin: 0 auto 50px auto; 
 	list-style: none; overflow: hidden;
 	margin-bottom:40px;
 }
@@ -230,17 +260,6 @@ ul#dribbble {
 ul#dribbble li {
 		float: left; margin-bottom: 10px; 
 }
-ul#dribbble a {
-			display: block; width: 200px; height: 150px;
-			box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-			-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-			-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); 
-}
-ul#dribbble a:hover {
-				box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-				-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-				-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); 
-		}
 
 #dribbble img {
 	border: 2px solid white;
@@ -253,6 +272,7 @@ ul#dribbble a:hover {
 
 .tweet a {
 	color:white;
+	text-shadow: none;
 }
 
 input {
@@ -303,3 +323,4 @@ textarea:focus {
 	background:#282A2C !important;
 	box-shadow: none !important;
 }
+
