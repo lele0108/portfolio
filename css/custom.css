@@ -1,6 +1,6 @@
 /* Author: Jimmy Liu
    Twitter: @jimmyliu
-   Website: jimmyliu.me */
+   Website: jliu.me */
 
 body {
 	background-image:url('debut_light.png');
@@ -89,6 +89,10 @@ body h2 {
    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
    -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0.5);
    box-shadow:         0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.about p {
+	line-height:22px;
 }
 
 .timeline hr {
